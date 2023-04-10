@@ -1,0 +1,80 @@
+/* Estilo para el cuerpo de la página */
+body {
+	margin: 20;
+	padding: 40;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+	font-size: 20px;
+	color: #060606;
+	background-color: #1e9ede;
+}
+
+/* Estilo para el encabezado */
+header {
+	text-align: center;
+	margin: 50px 0;
+}
+
+header h1 {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+header h2 {
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+/* Estilo para cada sección */
+section {
+	margin-bottom: 50px;
+    color: #000;
+}
+
+section h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+/* Estilo para la lista de logros */
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 10px;
+}
+
+/* Estilo para cada logro */
+li {
+	margin-bottom: 20px;
+}
+
+/* Estilo para el nombre de la empresa */
+li p:first-child {
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+/* Estilo para el título de la carrera o grado */
+li h4 {
+	margin-bottom: 5px;
+}
+
+/* Estilo para la lista de habilidades e idiomas */
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10;
+	padding: 10;
+}
+
+/* Estilo para cada habilidad o idioma */
+ul li {
+	margin: 5px;
+	padding: 5px 10px;
+	background-color: #bdb4b4;
+	border-radius: 5px;
+}
+
+/* Estilo para las referencias */
+p.references {
+	margin-top: 50px;
+}
