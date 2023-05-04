@@ -1,0 +1,51 @@
+/* Estilos para el footer */
+footer {
+    font-size: 16px;
+  }
+  
+  footer h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  footer ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  footer li {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer a:hover {
+    color: #ffc107;
+    text-decoration: none;
+  }
+  
+  footer input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  footer button {
+    border-radius: 5px;
+    border: none;
+    background-color: #ffc107;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
+  
+  footer button:hover {
+    background-color: #f0b804;
+    color: white;
+  }

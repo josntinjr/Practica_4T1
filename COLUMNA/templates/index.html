@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">   
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<img src="/static/img/tractor.webp" alt="width 30"  width="300" height ="200" class="img-responsive">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <center><h3>Motorola</h3></center>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque perspiciatis magnam aliquid nemo libero ducimus optio quibusdam. Laboriosam reprehenderit doloribus repudiandae fugit</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Creamos un formulario para ingresar los datos -->
+            <form>
+                <div class="form-group">
+                    <center><label for="datos">Search All Dealer Jobs</label></center>
+                    <input type="text" class="form-control" id="datos">
+                    <input type="text" class="form-control" id="datos">
+                </div>
+                <center><button type="button" class="btn btn-primary">Our</button></center>
+            </form> 
+        </div>
+    </div>
+    <hr>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <p>En esta sección, mostraremos 5 imágenes en una fila utilizando las clases de Bootstrap para crear una galería responsiva. Además, agregaremos un footer para cada imagen.</p>
+		<!-- Creamos una fila con una columna que contenga 4 imágenes centradas -->
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<img src="/static/img/scsor.jpeg" alt="width 30"  width="300" height ="200" class="img-responsive">
+				<div class="caption">
+					<h3>Mecanica</h3>
+				</div>
+			</div>
+			<div class="col-md-12 text-center">
+				<img src="/static/img/scsor.jpeg" alt="Imagen 2" width="300" height ="200"lass="img-responsive">
+				<div class="caption">
+					<h3>servicios</h3>
+				</div>
+			</div>
+			<div class="col-md-12 text-center">
+				<img src="/static/img/scsor.jpeg" alt="Imagen 3" width="300" height ="200" class="img-responsive">
+				<div class="caption">
+					<h3>Contactos</h3>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<footer class="bg-dark text-white py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <h4>Enlaces importantes</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Acerca de nosotros</a></li>
+                <li><a href="#">Política de privacidad</a></li>
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Contáctanos</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h4>Productos populares</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Producto 1</a></li>
+                <li><a href="#">Producto 2</a></li>
+                <li><a href="#">Producto 3</a></li>
+                <li><a href="#">Producto 4</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h4>Síguenos en redes sociales</h4>
+              <ul class="list-unstyled">
+                <li><a href="#"><i class="fab fa-facebook fa-lg"></i> Facebook</a></li>
+                <li><a href="#"><i class="fab fa-twitter fa-lg"></i> Twitter</a></li>
+                <li><a href="#"><i class="fab fa-instagram fa-lg"></i> Instagram</a></li>
+                <li><a href="#"><i class="fab fa-youtube fa-lg"></i> YouTube</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h4>Suscríbete a nuestro boletín</h4>
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico">
+                </div>
+                <button type="submit" class="btn btn-primary">Suscribirse</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center mt-4">
+          <p>© 2023 Todos los derechos reservados</p>
+        </div>
+      </footer>
+	<!-- Agregamos los archivos JavaScript de Bootstrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
